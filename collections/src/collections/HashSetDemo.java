@@ -12,6 +12,7 @@ public class HashSetDemo {
         Pizza tomatensauce = new Pizza("Tomatensauce");
         pizzas.add(tomatensauce);
         pizzas.add(tomatensauce);
+        pizzas.add(tomatensauce);
         pizzas.add(new Pizza("Tomatensauce"));
         pizzas.add(new Pizza("Käse"));
         System.out.println(pizzas);
